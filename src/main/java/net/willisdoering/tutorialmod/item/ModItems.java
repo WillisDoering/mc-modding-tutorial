@@ -8,6 +8,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.willisdoering.tutorialmod.TutorialMod;
 import net.willisdoering.tutorialmod.item.custom.ChiselItem;
+import net.willisdoering.tutorialmod.item.custom.ModFoodProperties;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -19,6 +20,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
             () -> new ChiselItem(new Item.Properties().durability(32)));
+    public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
