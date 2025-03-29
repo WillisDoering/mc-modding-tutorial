@@ -8,6 +8,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.willisdoering.tutorialmod.TutorialMod;
 import net.willisdoering.tutorialmod.item.custom.ChiselItem;
+import net.willisdoering.tutorialmod.item.custom.FuelItem;
 import net.willisdoering.tutorialmod.item.custom.ModFoodProperties;
 
 public class ModItems {
@@ -22,6 +23,8 @@ public class ModItems {
             () -> new ChiselItem(new Item.Properties().durability(32)));
     public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
             () -> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI)));
+    public static final RegistryObject<Item> AURORA_ASHES = ITEMS.register("aurora_ashes",
+            () -> new FuelItem(new Item.Properties(), 1200));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
