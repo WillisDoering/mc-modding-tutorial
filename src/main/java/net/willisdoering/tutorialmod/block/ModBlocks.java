@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.willisdoering.tutorialmod.TutorialMod;
+import net.willisdoering.tutorialmod.block.custom.MagicBlock;
 import net.willisdoering.tutorialmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -27,6 +28,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_ALEXANDRITE_BLOCK = registerBlock("raw_alexandrite_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     //Block drops
     public static final RegistryObject<Block> ALEXANDRITE_ORE = registerBlock("alexandrite_ore",
