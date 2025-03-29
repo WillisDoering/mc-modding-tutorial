@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "tutorial_mod:alexandrite_block",
-    "tutorial_mod:raw_alexandrite_block",
-    "tutorial_mod:alexandrite_ore",
-    "tutorial_mod:alexandrite_deepslate_ore"
-  ]
-}
