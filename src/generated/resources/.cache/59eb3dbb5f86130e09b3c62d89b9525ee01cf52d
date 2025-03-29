@@ -1,0 +1,6 @@
+// 1.21.1	2025-03-29T14:03:17.754629004	Loot Tables
+5d6439203e2c1603bd6f444549dee5c9dcc6d03f data/tutorial_mod/loot_table/blocks/alexandrite_block.json
+66b40b9a2437c91866c435abbf59abbd15997030 data/tutorial_mod/loot_table/blocks/alexandrite_deepslate_ore.json
+125f7bf7290f3c33637b4c85f1eb2b3862cb66dc data/tutorial_mod/loot_table/blocks/alexandrite_ore.json
+99ea23298c86e9251799255131ab2a8af1467280 data/tutorial_mod/loot_table/blocks/magic_block.json
+d17d6938b45bc007e4806437fe2e39001649d1bd data/tutorial_mod/loot_table/blocks/raw_alexandrite_block.json
