@@ -1,7 +1,5 @@
 {
-  "replace": false,
   "values": [
-    "tutorial_mod:alexandrite_block",
     "tutorial_mod:raw_alexandrite_block"
   ]
 }
